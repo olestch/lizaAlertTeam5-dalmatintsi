@@ -1,0 +1,8 @@
+.card__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+
+  transition: 0.25s all ease;
+  /* animation need settings  */
+}
