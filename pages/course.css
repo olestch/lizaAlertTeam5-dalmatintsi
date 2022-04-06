@@ -1,2 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/golos-text.css);
+
+/* import benefits */
+@import url(../blocks/benefits/benefits.css);
+@import url(../blocks/benefits/__header/benefits__header.css);
+@import url(../blocks/benefits/__icon/benefits__icon.css);
+@import url(../blocks/benefits/__subhead/benefits__subhead.css);
+@import url(../blocks/benefits/__text/benefits__text.css);
