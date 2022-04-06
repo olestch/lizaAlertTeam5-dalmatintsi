@@ -1,0 +1,5 @@
+.lesson__point_ready {
+  background: url(../../../../images/ready.svg) no-repeat;
+  background-position: right;
+  background-size: 20px 20px;
+}
