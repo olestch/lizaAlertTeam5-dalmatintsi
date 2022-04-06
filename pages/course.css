@@ -1,2 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/golos-text.css);
+
+/* page import */
+@import url(../blocks/page/page.css);
+
+/* card import */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__header/card__header.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__button/card__button.css);
