@@ -1,0 +1,8 @@
+.card__content_open {
+  height: auto;
+  padding-top: 32px;
+  opacity: 1;
+
+  transition: 0.75s all ease;
+  /* animation needs settings  */
+}

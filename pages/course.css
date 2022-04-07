@@ -9,6 +9,9 @@
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__content/card__content.css);
+@import url(../blocks/card/__content/_open/card__content_open.css);
+
 
 /* import benefits */
 @import url(../blocks/benefits/benefits.css);
@@ -16,3 +19,12 @@
 @import url(../blocks/benefits/__icon/benefits__icon.css);
 @import url(../blocks/benefits/__subhead/benefits__subhead.css);
 @import url(../blocks/benefits/__text/benefits__text.css);
+
+
+/* info import */
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__paragraph/info__paragraph.css);
+@import url(../blocks/info/__title-list/info__title-list.css);
+@import url(../blocks/info/__list/info__list.css);
+@import url(../blocks/info/__item/info__item.css);
+
