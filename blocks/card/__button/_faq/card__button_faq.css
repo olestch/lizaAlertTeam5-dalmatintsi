@@ -1,0 +1,6 @@
+.card__button_faq{
+    width: 10,54px;
+    height: 6,25px;
+    cursor: pointer;
+    transition: transform ease 350ms;
+ }
