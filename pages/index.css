@@ -13,3 +13,27 @@
 @import url(../blocks/lesson/__point/__point_ready/lesson__point_ready.css);
 @import url(../blocks/lesson/__points/lesson__points.css);
 @import url(../blocks/lesson/__text/lesson__text.css);
+
+@import url(../blocks/line-side/line-side.css);
+
+@import url(../blocks/content-side/content-side.css);
+@import url(../blocks/content-side/__title/content-side__title.css);
+
+@import url(../blocks/lessons-side/lessons-side.css);
+
+@import url(../blocks/lesson-side/lesson-side.css);
+@import url(../blocks/lesson-side/__button/lesson-side__button.css);
+@import url(../blocks/lesson-side/__button/_active/lesson-side__button_active.css);
+@import url(../blocks/lesson-side/__container/lesson-side__container.css);
+@import url(../blocks/lesson-side/__container/_closed/lesson-side__container_closed.css);
+@import url(../blocks/lesson-side/__header/lesson-side__header.css);
+@import url(../blocks/lesson-side/__point/lesson-side__point.css);
+@import url(../blocks/lesson-side/__point/_active/lesson-side__point_active.css);
+@import url(../blocks/lesson-side/__points/lesson-side__points.css);
+@import url(../blocks/lesson-side/__text/lesson-side__text.css);
+@import url(../blocks/lesson-side/__icon/_l/lesson-side__icon_l.css);
+@import url(../blocks/lesson-side/__icon/_l/_active/lesson-side__icon_l_active.css);
+@import url(../blocks/lesson-side/__icon/_t/lesson-side__icon_t.css);
+@import url(../blocks/lesson-side/__icon/_v/lesson-side__icon_v.css);
+@import url(../blocks/lesson-side/__icon/_w/lesson-side__icon_w.css);
+@import url(../blocks/lesson-side/__icon/_ready/lesson-side__icon_ready.css);

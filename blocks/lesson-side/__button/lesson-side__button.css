@@ -1,0 +1,11 @@
+.lesson-side__button {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  background: url(../../../images/arrowdown.svg) no-repeat center;
+  background-size: 20px 20px;
+}
