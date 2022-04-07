@@ -1,6 +1,6 @@
 .main__title {
     grid-area: title;
-    margin: 24px 0 32px 60px;
+    margin: 24px 0 32px 0;
     padding: 0;
     font-family: 'Golos', sans-serif;
     font-style: normal;

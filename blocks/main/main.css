@@ -1,11 +1,15 @@
 .main {
+    margin: 0 auto;
     position: relative;
     margin-top: 96px;
-    width: 100%;
+    width: 1440px;
     display: grid;
+    grid-template-columns: 872px 424px;
+    justify-content: center;
+    column-gap: 24px;
     grid-template-areas: 
-    'title title .'
-    'info info sidebar'
-    'info info .'
+    'title  .'
+    'info  sidebar'
+    'info  .'
     ;
 }
