@@ -1,5 +1,5 @@
 .card__content {
-  max-height: 0;
+  height: 0;
   overflow: hidden;
   opacity: 0;
 
