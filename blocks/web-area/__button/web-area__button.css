@@ -1,0 +1,15 @@
+.web-area__button {
+  margin: 0;
+  width: 184px;
+  height: 48px;
+  border: none;
+  background-color: #ff6600;
+  border-radius: 16px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #fff;
+  align-self: center;
+}
