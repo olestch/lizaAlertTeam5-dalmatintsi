@@ -1,0 +1,11 @@
+.page-course {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'title title .'
+    'info info sidebar'
+    'info info .'
+    ;
+}

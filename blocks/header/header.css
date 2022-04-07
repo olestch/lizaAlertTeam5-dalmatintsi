@@ -1,0 +1,9 @@
+.header {
+    width: 100%;
+    grid-area: header;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
