@@ -1,8 +1,12 @@
 .card {
   padding: 32px;
-  margin: 0;
+  margin: 0 0 24px 0;
   border-radius: 16px;
   background-color: #fff;
   box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6),
     0px 4px 16px rgba(231, 232, 235, 0.6);
+}
+
+.card:nth-child(4) {
+  margin-bottom:208px;
 }
