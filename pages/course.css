@@ -14,8 +14,9 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 
-/* main-title */
-@import url(../blocks/main-title/main-title.css);
+/* main */
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/main__title/main__title.css);
 
 /* info place for grid */
 @import url(../blocks/left-bar/left-bar.css);
@@ -47,3 +48,15 @@
 @import url(../blocks/info/__list/info__list.css);
 @import url(../blocks/info/__item/info__item.css);
 
+/* lessons */
+@import url(../blocks/line/line.css);
+
+@import url(../blocks/lessons/lessons.css);
+
+@import url(../blocks/lesson/lesson.css);
+@import url(../blocks/lesson/__card/lesson__card.css);
+@import url(../blocks/lesson/__icon/lesson__icon.css);
+@import url(../blocks/lesson/__point/lesson__point.css);
+@import url(../blocks/lesson/__point/__point_ready/lesson__point_ready.css);
+@import url(../blocks/lesson/__points/lesson__points.css);
+@import url(../blocks/lesson/__text/lesson__text.css);
