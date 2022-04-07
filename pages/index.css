@@ -58,3 +58,7 @@
 @import url(../blocks/breadcrumb/__arrow/breadcrumb__arrow.css);
 @import url(../blocks/breadcrumb/__link/breadcrumb__link.css);
 @import url(../blocks/breadcrumb/__link/_active/breadcrumb__link_active.css);
+
+@import url(../blocks/buttons-lesson-text/buttons-lesson-text.css);
+@import url(../blocks/buttons-lesson-text/__next/buttons-lesson-text__next.css);
+@import url(../blocks/buttons-lesson-text/__prev/buttons-lesson-text__prev.css);

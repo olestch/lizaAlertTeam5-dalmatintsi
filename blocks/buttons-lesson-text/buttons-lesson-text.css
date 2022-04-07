@@ -1,0 +1,9 @@
+.buttons-lesson-text {
+  margin: 24px 0 0 60px;
+  padding: 0 32px 0 0;
+  font-family: "Golos", Arial, Helvetica, sans-serif;
+  width: 872px;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
