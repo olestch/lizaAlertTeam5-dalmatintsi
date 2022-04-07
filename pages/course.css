@@ -3,6 +3,22 @@
 
 /* page import */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page-course/page-course.css);
+
+/* link-opened for classList.add */
+@import url(../blocks/link-opened/link-opened.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+
+/* main-title */
+@import url(../blocks/main-title/main-title.css);
+
+/* info place for grid */
+@import url(../blocks/left-bar/left-bar.css);
 
 /* card import */
 @import url(../blocks/card/card.css);
@@ -11,6 +27,10 @@
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__content/card__content.css);
 @import url(../blocks/card/__content/_open/card__content_open.css);
+
+
+/* sidebar */ 
+@import url(../blocks/sidebar/sidebar.css);
 
 /* info import */
 @import url(../blocks/info/info.css);

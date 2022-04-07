@@ -1,0 +1,10 @@
+.main-title {
+    grid-area: title;
+    margin: 24px 0 32px 60px;
+    padding: 0;
+    font-family: 'Golos', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+}
