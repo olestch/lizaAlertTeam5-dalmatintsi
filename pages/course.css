@@ -28,5 +28,13 @@
 @import url(../blocks/card/__content/card__content.css);
 @import url(../blocks/card/__content/_open/card__content_open.css);
 
+
 /* sidebar */ 
 @import url(../blocks/sidebar/sidebar.css);
+
+/* info import */
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__paragraph/info__paragraph.css);
+@import url(../blocks/info/__title-list/info__title-list.css);
+@import url(../blocks/info/__list/info__list.css);
+@import url(../blocks/info/__item/info__item.css);
