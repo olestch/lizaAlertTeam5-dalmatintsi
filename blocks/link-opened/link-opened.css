@@ -1,0 +1,3 @@
+.link-opened {
+    filter: invert(44%) sepia(36%) saturate(5522%) hue-rotate(5deg) brightness(98%) contrast(101%);
+}
