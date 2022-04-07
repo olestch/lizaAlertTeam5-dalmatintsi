@@ -9,3 +9,10 @@
 @import url(../blocks/card/__header/card__header.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__button/card__button.css);
+
+/* info import */
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__paragraph/info__paragraph.css);
+@import url(../blocks/info/__title-list/info__title-list.css);
+@import url(../blocks/info/__list/info__list.css);
+@import url(../blocks/info/__item/info__item.css);
