@@ -18,7 +18,7 @@
 @import url(../blocks/main-title/main-title.css);
 
 /* info place for grid */
-@import url(../blocks/info/info.css);
+@import url(../blocks/left-bar/left-bar.css);
 
 /* card import */
 @import url(../blocks/card/card.css);
