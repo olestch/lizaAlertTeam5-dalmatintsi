@@ -1,0 +1,14 @@
+.breadcrumb__link {
+  min-width: 57px;
+  max-width: 525px;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #212329;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

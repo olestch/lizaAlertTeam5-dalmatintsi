@@ -1,3 +1,6 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/golos-text.css);
+
 @import url(../blocks/line/line.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__button/content__button.css);
@@ -42,3 +45,16 @@
 @import url(../blocks/text-area/__title/text-area__title.css);
 @import url(../blocks/text-area/__subtitle/text-area__subtitle.css);
 @import url(../blocks/text-area/__text/text-area__text.css);
+
+@import url(../blocks/web-area/web-area.css);
+@import url(../blocks/web-area/__announce/web-area__announce.css);
+@import url(../blocks/web-area/__button/web-area__button.css);
+@import url(../blocks/web-area/__time/web-area__time.css);
+@import url(../blocks/web-area/__title/web-area__title.css);
+
+@import url(../blocks/breadcrumbs/breadcrumbs.css);
+
+@import url(../blocks/breadcrumb/breadcrumb.css);
+@import url(../blocks/breadcrumb/__arrow/breadcrumb__arrow.css);
+@import url(../blocks/breadcrumb/__link/breadcrumb__link.css);
+@import url(../blocks/breadcrumb/__link/_active/breadcrumb__link_active.css);
