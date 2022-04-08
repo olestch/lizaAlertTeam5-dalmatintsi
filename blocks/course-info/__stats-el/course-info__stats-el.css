@@ -1,79 +1,77 @@
 .course-info__stats-el {
-    display: flex;
-    position: relative;
-    margin: 0 0 16px 32px;
-    padding: 0;
-    font-family: 'Golos',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #212329;
+  display: flex;
+  position: relative;
+  margin: 0 0 16px 32px;
+  padding: 0;
+  font-family: "Golos", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212329;
 }
 
 .course-info__stats-el::before {
-    position: absolute;
-    left: -30px;
-    top: 2px;
-    background-image: url(../../../images/stars.svg);
-    background-size: cover;
-    width: 20px;
-    height: 20px;
-    content: '';
+  position: absolute;
+  left: -30px;
+  top: 2px;
+  background-image: url(../../../images/stars.svg);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  content: "";
 }
 
 .course-info__stats-el::after {
-    content: 'бывалый';
-    position: absolute;
-    right: 0;
+  content: "Бывалый";
+  position: absolute;
+  right: 0;
 }
 
 .course-info__stats-el:nth-child(4) {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .course-info__stats-el:nth-child(5) {
-    color: #FF0000;
-    margin-bottom: 0;
+  color: #ff0000;
+  margin-bottom: 0;
 }
 
-
 .course-info__stats-el:nth-child(2)::before {
-    background-image: url(../../../images/book.svg);
+  background-image: url(../../../images/book.svg);
 }
 
 .course-info__stats-el:nth-child(2)::after {
-    content: '24';
-    position: absolute;
-    right: 0;
+  content: "24";
+  position: absolute;
+  right: 0;
 }
 
 .course-info__stats-el:nth-child(3)::before {
-    background-image: url(../../../images/clock.svg);
+  background-image: url(../../../images/clock.svg);
 }
 
 .course-info__stats-el:nth-child(3)::after {
-    content: '64 ч';
-    position: absolute;
-    right: 0;
+  content: "64 ч";
+  position: absolute;
+  right: 0;
 }
 
 .course-info__stats-el:nth-child(4)::before {
-    background-image: url(../../../images/calendar.svg);
-}   
+  background-image: url(../../../images/calendar.svg);
+}
 
 .course-info__stats-el:nth-child(4)::after {
-    content: '22.02.2022';
-    position: absolute;
-    right: 0;
+  content: "22.02.2022 г";
+  position: absolute;
+  right: 0;
 }
 
 .course-info__stats-el:nth-child(5)::before {
-    width: 22px;
-    background-image: url(../../../images/warning.svg);
+  width: 22px;
+  background-image: url(../../../images/warning.svg);
 }
 
 .course-info__stats-el:nth-child(5)::after {
-    content: '';
-
+  content: "";
 }
