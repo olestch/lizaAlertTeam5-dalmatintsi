@@ -1,0 +1,5 @@
+.lesson-side__button_active{
+  width: 20px;
+  height: 20px;
+  background: url(../../../../images/arrowup.svg) no-repeat center;
+}
