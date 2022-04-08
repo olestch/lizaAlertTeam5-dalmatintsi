@@ -8,8 +8,8 @@
   justify-content: center;
   column-gap: 24px;
   grid-template-areas:
-  'title  .'
-  'info  lesson'
-  'info  .'
+  'breadcrumbs  .'
+  'info  sidebar'
+  'info   .'
   ;
 }
