@@ -1,0 +1,8 @@
+.breadcrumbs {
+  grid-area: breadcrumbs;
+  margin: 0 auto 32px;
+  font-family: "Golos", Arial, Helvetica, sans-serif;
+  color: #212329;
+  width: 1320px;
+  display: flex;
+}
