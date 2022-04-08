@@ -8,6 +8,12 @@
 /* page import */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page-lesson-text/page-lesson-text.css);
+/* breadcrumbs import */
+@import url(../blocks/breadcrumbs/breadcrumbs.css);
+@import url(../blocks/breadcrumb/breadcrumb.css);
+@import url(../blocks/breadcrumb/__arrow/breadcrumb__arrow.css);
+@import url(../blocks/breadcrumb/__link/breadcrumb__link.css);
+@import url(../blocks/breadcrumb/__link/_active/breadcrumb__link_active.css);
 
 /* text-area import */
 @import url(../blocks/text-area/text-area.css);
