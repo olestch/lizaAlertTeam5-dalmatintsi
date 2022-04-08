@@ -3,6 +3,5 @@
   overflow: hidden;
   opacity: 0;
 
-  transition: 0.25s all ease;
-  /* animation need settings  */
+  transition: 0.7s all ease;
 }

@@ -1,6 +1,7 @@
-.card__button_type_faq{
-    width: 10,54px;
-    height: 6,25px;
-    cursor: pointer;
-    transition: transform ease 350ms;
- }
+.card__button_type_faq {
+  width: 12px;
+  height: 9px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: transform ease 350ms;
+}
