@@ -45,11 +45,6 @@
 @import url(../blocks/benefits/__subhead/benefits__subhead.css);
 @import url(../blocks/benefits/__text/benefits__text.css);
 
-
-
-/* sidebar */ 
-@import url(../blocks/sidebar/sidebar.css);
-
 /* info import */
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__paragraph/info__paragraph.css);
@@ -59,9 +54,7 @@
 
 /* lessons */
 @import url(../blocks/line/line.css);
-
 @import url(../blocks/lessons/lessons.css);
-
 @import url(../blocks/lesson/lesson.css);
 @import url(../blocks/lesson/__card/lesson__card.css);
 @import url(../blocks/lesson/__icon/lesson__icon.css);
@@ -69,3 +62,11 @@
 @import url(../blocks/lesson/__point/__point_ready/lesson__point_ready.css);
 @import url(../blocks/lesson/__points/lesson__points.css);
 @import url(../blocks/lesson/__text/lesson__text.css);
+
+/* sidebar and course-info */
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/course-info/course-info.css);
+@import url(../blocks/course-info/__button/course-info__button.css);
+@import url(../blocks/course-info/__image/course-info__image.css);
+@import url(../blocks/course-info/__stats/course-info__stats.css);
+@import url(../blocks/course-info/__stats-el/course-info__stats-el.css);
