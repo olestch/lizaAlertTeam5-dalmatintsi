@@ -28,6 +28,14 @@
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__content/card__content.css);
 @import url(../blocks/card/__content/_open/card__content_open.css);
+@import url(../blocks/card/__content/_faq/card__content_faq.css);
+
+
+/*FAQ*/
+
+@import url(../blocks/card/__button/_faq/card__button_faq.css);
+@import url(../blocks/card/__button/_up/card__button_up.css);
+@import url(../blocks/card/__faq-container/card__faq-container.css);
 
 
 /* import benefits */
@@ -46,9 +54,7 @@
 
 /* lessons */
 @import url(../blocks/line/line.css);
-
 @import url(../blocks/lessons/lessons.css);
-
 @import url(../blocks/lesson/lesson.css);
 @import url(../blocks/lesson/__card/lesson__card.css);
 @import url(../blocks/lesson/__icon/lesson__icon.css);
