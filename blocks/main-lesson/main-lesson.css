@@ -8,7 +8,7 @@
   justify-content: center;
   column-gap: 24px;
   grid-template-areas:
-  'breadcrumbs  .'
+  'breadcrumbs breadcrumbs'
   'info  sidebar'
   'info   .'
   'button .'
