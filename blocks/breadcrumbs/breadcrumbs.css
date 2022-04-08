@@ -1,0 +1,7 @@
+.breadcrumbs {
+  margin: 0 auto;
+  font-family: "Golos", Arial, Helvetica, sans-serif;
+  color: #212329;
+  width: 1320px;
+  display: flex;
+}
