@@ -4,3 +4,7 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 26px;
 }
+
+.lesson:first-child {
+  margin: 0;
+}
