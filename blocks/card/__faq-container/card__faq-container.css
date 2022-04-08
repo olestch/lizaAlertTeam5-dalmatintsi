@@ -1,16 +1,15 @@
 .card__faq-container {
   background-color: #fff;
+  margin-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(230, 231, 235, 1);
 }
 .card__faq-container:nth-child(1) {
-  padding-bottom: 32px;
-  border-bottom: 1px solid rgba(230, 231, 235, 1);
-}
+  margin-top: 0px;
+  }
 
-.card__faq-container:nth-child(2) {
+.card__faq-container:last-of-type {
   margin-top: 32px;
-  padding-bottom: 32px;
-  border-bottom: 1px solid rgba(230, 231, 235, 1);
-}
-.card__faq-container:nth-child(3) {
-  margin-top: 32px;
+  border: none;
+  padding-bottom: 0px;
 }
