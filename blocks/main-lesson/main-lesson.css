@@ -10,7 +10,7 @@
   grid-template-areas:
   'breadcrumbs breadcrumbs'
   'info  sidebar'
-  'info   .'
-  'button .'
+  'info  sidebar'
+  'button sidebar'
   ;
 }
