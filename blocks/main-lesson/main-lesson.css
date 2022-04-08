@@ -1,7 +1,6 @@
 .main-lesson {
-  margin: 0 auto;
+  margin: 96px auto 99px auto;
   position: relative;
-  margin-top: 96px;
   width: 1440px;
   display: grid;
   grid-template-columns: 872px 424px;
