@@ -8,3 +8,9 @@
 /* page import */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page-lesson-text/page-lesson-text.css);
+
+/* text-area import */
+@import url(../blocks/text-area/text-area.css);
+@import url(../blocks/text-area/__title/text-area__title.css);
+@import url(../blocks/text-area/__subtitle/text-area__subtitle.css);
+@import url(../blocks/text-area/__text/text-area__text.css);
