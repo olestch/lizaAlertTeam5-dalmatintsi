@@ -1,0 +1,12 @@
+.webinar-area__button {
+    margin: 0;
+    padding: 0;
+    width: 184px;
+    height: 48px;
+    background-color: #FF6600;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
