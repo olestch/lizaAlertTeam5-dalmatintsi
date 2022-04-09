@@ -52,6 +52,7 @@
 @import url(../blocks/lesson-side/__icon/_t/lesson-side__icon_t.css);
 @import url(../blocks/lesson-side/__icon/_v/lesson-side__icon_v.css);
 @import url(../blocks/lesson-side/__icon/_w/lesson-side__icon_w.css);
+@import url(../blocks/lesson-side/__icon/_w/_active/lesson-side__icon_w_active.css);
 @import url(../blocks/lesson-side/__icon/_ready/lesson-side__icon_ready.css);
 @import url(../blocks/lesson-side/__point/_nobmargin/lesson-side__point_nobmargin.css);
 
