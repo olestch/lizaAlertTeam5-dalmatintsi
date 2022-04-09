@@ -1,26 +1,19 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/golos-text.css);
-
 /* page import */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page-course/page-course.css);
-
 /* link-opened for classList.add */
 @import url(../blocks/link-opened/link-opened.css);
-
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
-
 /* main */
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/main__title/main__title.css);
-
 /* info place for grid */
 @import url(../blocks/left-bar/left-bar.css);
-
 /* card import */
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__header/card__header.css);
@@ -30,29 +23,23 @@
 @import url(../blocks/card/__content/_open/card__content_open.css);
 @import url(../blocks/card/__content/_type/card__content_type_faq.css);
 @import url(../blocks/card/__title/_type/card__title_type_faq.css);
-
 /*FAQ*/
-
 @import url(../blocks/card/__button/_type/card__button_type_faq.css);
 @import url(../blocks/card/__button/_up/card__button_up.css);
 @import url(../blocks/card/__faq-container/card__faq-container.css);
 @import url(../blocks/card/__header/_type/card__header_type_faq.css);
-
-
 /* import benefits */
 @import url(../blocks/benefits/benefits.css);
 @import url(../blocks/benefits/__header/benefits__header.css);
 @import url(../blocks/benefits/__icon/benefits__icon.css);
 @import url(../blocks/benefits/__subhead/benefits__subhead.css);
 @import url(../blocks/benefits/__text/benefits__text.css);
-
 /* info import */
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__paragraph/info__paragraph.css);
 @import url(../blocks/info/__title-list/info__title-list.css);
 @import url(../blocks/info/__list/info__list.css);
 @import url(../blocks/info/__item/info__item.css);
-
 /* lessons */
 @import url(../blocks/line/line.css);
 @import url(../blocks/lessons/lessons.css);
@@ -63,7 +50,6 @@
 @import url(../blocks/lesson/__point/__point_ready/lesson__point_ready.css);
 @import url(../blocks/lesson/__points/lesson__points.css);
 @import url(../blocks/lesson/__text/lesson__text.css);
-
 /* sidebar and course-info */
 @import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/course-info/course-info.css);

@@ -7,8 +7,7 @@
 @import url(../blocks/header/__link/header__link.css);
 /* page import */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page-lesson-webinar/page-lesson-webinar.css);
-
+/* main-lesson import */
 @import url(../blocks/main-lesson/main-lesson.css);
 @import url(../blocks/left-bar/left-bar.css);
 /* breadcrumbs import */
@@ -17,26 +16,21 @@
 @import url(../blocks/breadcrumb/__arrow/breadcrumb__arrow.css);
 @import url(../blocks/breadcrumb/__link/breadcrumb__link.css);
 @import url(../blocks/breadcrumb/__link/_active/breadcrumb__link_active.css);
-
 /* webinar area */
 @import url(../blocks/webinar-area/webinar-area.css);
 @import url(../blocks/webinar-area/webinar-area__title/webinar-area__title.css);
 @import url(../blocks/webinar-area/webinar-area__info/webinar-area__info.css);
 @import url(../blocks/webinar-area/webinar-area__button/webinar-area__button.css);
-
 /* button import */
 @import url(../blocks/buttons-lesson-text/buttons-lesson-text.css);
 @import url(../blocks/buttons-lesson-text/__next/buttons-lesson-text__next.css);
 @import url(../blocks/buttons-lesson-text/__prev/buttons-lesson-text__prev.css);
-
 /* right-sidebar-content */
 @import url(../blocks/line-side/line-side.css);
-
 @import url(../blocks/content-side/content-side.css);
 @import url(../blocks/content-side/__title/content-side__title.css);
-
+/* lessons-side import */
 @import url(../blocks/lessons-side/lessons-side.css);
-
 @import url(../blocks/lesson-side/lesson-side.css);
 @import url(../blocks/lesson-side/__button/lesson-side__button.css);
 @import url(../blocks/lesson-side/__button/_active/lesson-side__button_active.css);
@@ -55,6 +49,5 @@
 @import url(../blocks/lesson-side/__icon/_w/_active/lesson-side__icon_w_active.css);
 @import url(../blocks/lesson-side/__icon/_ready/lesson-side__icon_ready.css);
 @import url(../blocks/lesson-side/__point/_nobmargin/lesson-side__point_nobmargin.css);
-
 /* span accent */
 @import url(../blocks/span-accent/span-accent.css);
