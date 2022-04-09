@@ -1,4 +1,6 @@
 .lesson-side__container {
   margin: 32px 0 0 0;
   display: block;
+  opacity: 1;
+  transition: 0.9s all ease;
 }
