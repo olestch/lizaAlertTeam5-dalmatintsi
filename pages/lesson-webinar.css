@@ -11,6 +11,7 @@
 /* main-lesson import */
 @import url(../blocks/main-lesson/main-lesson.css);
 @import url(../blocks/left-bar/left-bar.css);
+@import url(../blocks/card/card.css);
 /* breadcrumbs import */
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
 @import url(../blocks/breadcrumb/breadcrumb.css);

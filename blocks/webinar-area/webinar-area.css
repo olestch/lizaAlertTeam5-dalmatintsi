@@ -1,13 +1,11 @@
 .webinar-area {
     box-sizing: border-box;
-    margin:0;
     padding: 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 872px;
-    height: 228px;
+    min-height: 228px;
     border-radius: 16px;
     box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6),
     0px 4px 16px rgba(231, 232, 235, 0.6);
