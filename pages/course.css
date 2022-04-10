@@ -22,8 +22,6 @@
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__content/card__content.css);
 @import url(../blocks/card/__content/_open/card__content_open.css);
-@import url(../blocks/card/__content/_type/card__content_type_faq.css);
-@import url(../blocks/card/__title/_type/card__title_type_faq.css);
 
 
 /*FAQ*/
@@ -36,11 +34,6 @@
 @import url(../blocks/faq/__button/_up/faq__button_up.css);
 
 
-@import url(../blocks/card/__button/_type/card__button_type_faq.css);
-@import url(../blocks/card/__button/_up/card__button_up.css);
-@import url(../blocks/card/__faq-container/card__faq-container.css);
-@import url(../blocks/card/__content-faq/card__content-faq.css);
-@import url(../blocks/card/__header/_type/card__header_type_faq.css);
 
 /* import benefits */
 @import url(../blocks/benefits/benefits.css);
