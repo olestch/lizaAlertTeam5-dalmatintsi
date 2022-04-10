@@ -8,4 +8,5 @@
   cursor: pointer;
   background: url(../../../images/arrowdown.svg) no-repeat center;
   background-size: 20px 20px;
+  transition: transform ease 350ms;
 }
