@@ -4,6 +4,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__links-el/header__links-el.css);
 @import url(../blocks/header/__link/header__link.css);
 /* page import */
 @import url(../blocks/page/page.css);
@@ -48,3 +49,7 @@
 @import url(../blocks/lesson-side/__icon/_w/lesson-side__icon_w.css);
 @import url(../blocks/lesson-side/__icon/_ready/lesson-side__icon_ready.css);
 @import url(../blocks/lesson-side/__point/_nobmargin/lesson-side__point_nobmargin.css);
+
+/* icons */
+@import url(../blocks/icon-courses/icon-courses.css);
+@import url(../blocks/icon-profile/icon-profile.css);

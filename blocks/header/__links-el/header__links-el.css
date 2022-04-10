@@ -1,0 +1,13 @@
+.header__links-el {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    transition: 0.4s;
+}
+
+
+.header__links-el:nth-child(2) {
+    margin-left: 72px;
+}
+
