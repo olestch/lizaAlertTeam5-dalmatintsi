@@ -1,330 +1,281 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Страница вебинара</title>
-    <link rel="stylesheet" href="./pages/lesson-webinar.css" />
-  </head>
-  <body class="page">
-    <header class="header">
-      <p class="header__title">Учебная платформа</p>
-      <ul class="header__links">
-        <li class="header__link">Курсы</li>
-        <li class="header__link">Профиль</li>
-      </ul>
-    </header>
-    <main class="main-lesson">
-      <section class="breadcrumbs">
-        <div class="breadcrumb">
-          <a
-            class="breadcrumb__link"
-            href="https://mikhailmudrov.github.io/liza-project/index.html"
-            >Курсы</a
-          >
-          <div class="breadcrumb__arrow"></div>
-        </div>
-        <div class="breadcrumb">
-          <a class="breadcrumb__link" href="course.html"
-            >Кинологическое направление</a
-          >
-          <div class="breadcrumb__arrow"></div>
-        </div>
-        <div class="breadcrumb">
-          <a class="breadcrumb__link" href="#"
-            >5. Работа «второго номера» совместно со следовым кинологическим
-            расчётом</a
-          >
-          <div class="breadcrumb__arrow"></div>
-        </div>
-        <div class="breadcrumb">
-          <a class="breadcrumb__link breadcrumb__link_active" href="#"
-            >Вебинар</a
-          >
-        </div>
-      </section>
-      <section class="left-bar">
-        <div class="webinar-area">
-          <h1 class="webinar-area__title">Вебинар</h1>
-          <p class="webinar-area__info">
-            Вебинар стартует <span class="span-accent">30.03.2022</span> в
-            <span class="span-accent">19:00</span> МСК (GTM+3)
-          </p>
-          <button class="webinar-area__button" type="button" id="goToZoom">
-            Подключиться
-          </button>
-        </div>
-        <div class="buttons-lesson-text">
-          <button class="buttons-lesson-text__prev" id="goToLessonText">
-            ←&nbsp;&nbsp;&nbsp;Назад
-          </button>
-          <button class="buttons-lesson-text__next" id="goToVideo">
-            Далее&nbsp;&nbsp;&nbsp;→
-          </button>
-        </div>
-      </section>
-      <section class="sidebar">
-        <div class="content-side">
-          <h3 class="content-side__title">Содержание</h3>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Страница вебинара</title>
+  <link rel="stylesheet" href="./pages/lesson-webinar.css" />
+</head>
+
+<body class="page">
+  <header class="header">
+    <p class="header__title">Учебная платформа</p>
+    <ul class="header__links">
+      <li class="header__link">Курсы</li>
+      <li class="header__link">Профиль</li>
+    </ul>
+  </header>
+  <main class="main-lesson">
+    <section class="breadcrumbs">
+      <div class="breadcrumb">
+        <a class="breadcrumb__link" href="https://mikhailmudrov.github.io/liza-project/index.html">Курсы</a>
+        <div class="breadcrumb__arrow"></div>
+      </div>
+      <div class="breadcrumb">
+        <a class="breadcrumb__link" href="course.html">Кинологическое направление</a>
+        <div class="breadcrumb__arrow"></div>
+      </div>
+      <div class="breadcrumb">
+        <a class="breadcrumb__link" href="#">5. Работа «второго номера» совместно со следовым кинологическим
+          расчётом</a>
+        <div class="breadcrumb__arrow"></div>
+      </div>
+      <div class="breadcrumb">
+        <a class="breadcrumb__link breadcrumb__link_active" href="#">Вебинар</a>
+      </div>
+    </section>
+    <section class="left-bar">
+      <div class="webinar-area">
+        <h1 class="webinar-area__title">Вебинар</h1>
+        <p class="webinar-area__info">
+          Вебинар стартует <span class="span-accent">30.03.2022</span> в
+          <span class="span-accent">19:00</span> МСК (GTM+3)
+        </p>
+        <button class="webinar-area__button" type="button" id="goToZoom">
+          Подключиться
+        </button>
+      </div>
+      <div class="buttons-lesson-text">
+        <button class="buttons-lesson-text__prev" id="goToLessonText">
+          ←&nbsp;&nbsp;&nbsp;Назад
+        </button>
+        <button class="buttons-lesson-text__next" id="goToVideo">
+          Далее&nbsp;&nbsp;&nbsp;→
+        </button>
+      </div>
+    </section>
+    <section class="sidebar">
+      <div class="content-side">
+        <h3 class="content-side__title">Содержание</h3>
+        <div class="line-side"></div>
+        <ul class="lessons-side">
+          <li class="lesson-side">
+            <div class="lesson-side__header">
+              <p class="lesson-side__text">
+                1. В каких случаях перспективно применение следовых
+                кинологических расчётов
+              </p>
+              <button class="lesson-side__button"></button>
+            </div>
+            <div class="lesson-side__container lesson-side__container_closed">
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_l lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Урок</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_v lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Видео</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_l lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Урок</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_w lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Вебинар</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_t lesson-side__icon_ready"></div>
+                <p class="lesson-side__point lesson-side__point_nobmargin">
+                  Тест
+                </p>
+              </div>
+            </div>
+          </li>
           <div class="line-side"></div>
-          <ul class="lessons-side">
-            <li class="lesson-side">
-              <div class="lesson-side__header">
-                <p class="lesson-side__text">
-                  1. В каких случаях перспективно применение следовых
-                  кинологических расчётов
+          <li class="lesson-side">
+            <div class="lesson-side__header">
+              <p class="lesson-side__text">
+                2. Необходимые обеспечительные меры для успешного применения
+                следовых (розыскных собак)
+              </p>
+              <button class="lesson-side__button"></button>
+            </div>
+            <div class="lesson-side__container lesson-side__container_closed">
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_l lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Урок</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_w lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Вебинар</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_l lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Урок</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_v lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Видео</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_t lesson-side__icon_ready"></div>
+                <p class="lesson-side__point lesson-side__point_nobmargin">
+                  Тест
                 </p>
-                <button class="lesson-side__button"></button>
               </div>
-              <div class="lesson-side__container lesson-side__container_closed">
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_l lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Урок</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_v lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Видео</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_l lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Урок</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_w lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Вебинар</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_t lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point lesson-side__point_nobmargin">
-                    Тест
-                  </p>
-                </div>
+            </div>
+          </li>
+          <div class="line-side"></div>
+          <li class="lesson-side">
+            <div class="lesson-side__header">
+              <p class="lesson-side__text">
+                3. Особенности привлечения следовых расчётов
+                на ПСР и особенности взаимодействия
+              </p>
+              <button class="lesson-side__button lesson-side__button_active"></button>
+            </div>
+            <div class="lesson-side__container">
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_l lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Урок</p>
               </div>
-            </li>
-            <div class="line-side"></div>
-            <li class="lesson-side">
-              <div class="lesson-side__header">
-                <p class="lesson-side__text">
-                  2. Необходимые обеспечительные меры для успешного применения
-                  следовых (розыскных собак)
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_w lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Вебинар</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_l lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Урок</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_v lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">Видео</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_t lesson-side__icon_ready"></div>
+                <p class="lesson-side__point lesson-side__point_nobmargin">
+                  Тест
                 </p>
-                <button class="lesson-side__button"></button>
               </div>
-              <div class="lesson-side__container lesson-side__container_closed">
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_l lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Урок</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_w lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Вебинар</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_l lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Урок</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_v lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Видео</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_t lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point lesson-side__point_nobmargin">
-                    Тест
-                  </p>
-                </div>
-              </div>
-            </li>
-            <div class="line-side"></div>
-            <li class="lesson-side">
-              <div class="lesson-side__header">
-                <p class="lesson-side__text">
-                  3. Особенности привлечения следовых расчётов
-                  на ПСР и особенности взаимодействия
+            </div>
+          </li>
+          <div class="line-side"></div>
+          <li class="lesson-side">
+            <div class="lesson-side__header">
+              <p class="lesson-side__text">
+                4. Корректная постановка задачи кинологу и особенности
+                её исполнения
+              </p>
+              <button class="lesson-side__button lesson-side__button_active"></button>
+            </div>
+            <div class="lesson-side__container">
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_w lesson-side__icon_ready"></div>
+                <p class="lesson-side__point lesson-side__point_nobmargin">
+                  Вебинар
                 </p>
-                <button
-                  class="lesson-side__button lesson-side__button_active"
-                ></button>
               </div>
-              <div class="lesson-side__container">
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_l lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Урок</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_w lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Вебинар</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_l lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Урок</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_v lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">Видео</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_t lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point lesson-side__point_nobmargin">
-                    Тест
-                  </p>
-                </div>
-              </div>
-            </li>
-            <div class="line-side"></div>
-            <li class="lesson-side">
-              <div class="lesson-side__header">
-                <p class="lesson-side__text">
-                  4. Корректная постановка задачи кинологу и особенности
-                  её исполнения
+            </div>
+          </li>
+          <div class="line-side"></div>
+          <li class="lesson-side">
+            <div class="lesson-side__header">
+              <p class="lesson-side__text">
+                5. Работа «второго номера» совместно со следовым
+                кинологическим расчётом
+              </p>
+              <button class="lesson-side__button lesson-side__button_active"></button>
+            </div>
+            <div class="lesson-side__container">
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_l lesson-side__icon_ready"></div>
+                <p class="lesson-side__point">
+                  Дрессировка поисково-спасательных&nbspсобак
                 </p>
-                <button
-                  class="lesson-side__button lesson-side__button_active"
-                ></button>
               </div>
-              <div class="lesson-side__container">
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_w lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point lesson-side__point_nobmargin">
-                    Вебинар
-                  </p>
-                </div>
-              </div>
-            </li>
-            <div class="line-side"></div>
-            <li class="lesson-side">
-              <div class="lesson-side__header">
-                <p class="lesson-side__text">
-                  5. Работа «второго номера» совместно со следовым
-                  кинологическим расчётом
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_w lesson-side__icon_w_active"></div>
+                <p class="lesson-side__point lesson-side__point_active">
+                  Вебинар
                 </p>
-                <button
-                  class="lesson-side__button lesson-side__button_active"
-                ></button>
               </div>
-              <div class="lesson-side__container">
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_l lesson-side__icon_ready"
-                  ></div>
-                  <p class="lesson-side__point">
-                    Дрессировка поисково-спасательных&nbspсобак
-                  </p>
-                </div>
-                <div class="lesson-side__points">
-                  <div
-                    class="lesson-side__icon_w lesson-side__icon_w_active"
-                  ></div>
-                  <p class="lesson-side__point lesson-side__point_active">
-                    Вебинар
-                  </p>
-                </div>
-                <div class="lesson-side__points">
-                  <div class="lesson-side__icon_l"></div>
-                  <p class="lesson-side__point">Урок</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div class="lesson-side__icon_v"></div>
-                  <p class="lesson-side__point">Видео</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div class="lesson-side__icon_t"></div>
-                  <p class="lesson-side__point lesson-side__point_nobmargin">
-                    Тест
-                  </p>
-                </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_l"></div>
+                <p class="lesson-side__point">Урок</p>
               </div>
-            </li>
-            <div class="line-side"></div>
-            <li class="lesson-side">
-              <div class="lesson-side__header">
-                <p class="lesson-side__text">
-                  6. Оценка качества и особенности анализа результата
-                  проделанной следовым кинологическим расчётом работы
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_v"></div>
+                <p class="lesson-side__point">Видео</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_t"></div>
+                <p class="lesson-side__point lesson-side__point_nobmargin">
+                  Тест
                 </p>
-                <button class="lesson-side__button"></button>
               </div>
-              <div class="lesson-side__container lesson-side__container_closed">
-                <div class="lesson-side__points">
-                  <div class="lesson-side__icon_l"></div>
-                  <p class="lesson-side__point">Урок</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div class="lesson-side__icon_w"></div>
-                  <p class="lesson-side__point">Вебинар</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div class="lesson-side__icon_v"></div>
-                  <p class="lesson-side__point">Видео</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div class="lesson-side__icon_t"></div>
-                  <p class="lesson-side__point lesson-side__point_nobmargin">
-                    Тест
-                  </p>
-                </div>
+            </div>
+          </li>
+          <div class="line-side"></div>
+          <li class="lesson-side">
+            <div class="lesson-side__header">
+              <p class="lesson-side__text">
+                6. Оценка качества и особенности анализа результата
+                проделанной следовым кинологическим расчётом работы
+              </p>
+              <button class="lesson-side__button"></button>
+            </div>
+            <div class="lesson-side__container lesson-side__container_closed">
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_l"></div>
+                <p class="lesson-side__point">Урок</p>
               </div>
-            </li>
-            <div class="line-side"></div>
-            <li class="lesson-side">
-              <div class="lesson-side__header">
-                <p class="lesson-side__text">
-                  7. Особенности и пределы использования РПРС ом полученной
-                  в ходе применения специальной следовой собаки информации
-                  в целях успешного разрешения поисков
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_w"></div>
+                <p class="lesson-side__point">Вебинар</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_v"></div>
+                <p class="lesson-side__point">Видео</p>
+              </div>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_t"></div>
+                <p class="lesson-side__point lesson-side__point_nobmargin">
+                  Тест
                 </p>
-                <button class="lesson-side__button"></button>
               </div>
-              <div class="lesson-side__container lesson-side__container_closed">
-                <div class="lesson-side__points">
-                  <div class="lesson-side__icon_w"></div>
-                  <p class="lesson-side__point">Вебинар</p>
-                </div>
-                <div class="lesson-side__points">
-                  <div class="lesson-side__icon_t"></div>
-                  <p class="lesson-side__point lesson-side__point_nobmargin">
-                    Тест
-                  </p>
-                </div>
+            </div>
+          </li>
+          <div class="line-side"></div>
+          <li class="lesson-side">
+            <div class="lesson-side__header">
+              <p class="lesson-side__text">
+                7. Особенности и пределы использования РПРС ом полученной
+                в ходе применения специальной следовой собаки информации
+                в целях успешного разрешения поисков
+              </p>
+              <button class="lesson-side__button"></button>
+            </div>
+            <div class="lesson-side__container lesson-side__container_closed">
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_w"></div>
+                <p class="lesson-side__point">Вебинар</p>
               </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <script src="scripts/lesson-webinar.js"></script>
-  </body>
+              <div class="lesson-side__points">
+                <div class="lesson-side__icon lesson-side__icon_t"></div>
+                <p class="lesson-side__point lesson-side__point_nobmargin">
+                  Тест
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <script src="scripts/lesson-webinar.js"></script>
+</body>
+
 </html>
