@@ -8,6 +8,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__links-el/header__links-el.css);
 @import url(../blocks/header/__link/header__link.css);
 /* main */
 @import url(../blocks/main/main.css);
@@ -57,3 +58,7 @@
 @import url(../blocks/course-info/__image/course-info__image.css);
 @import url(../blocks/course-info/__stats/course-info__stats.css);
 @import url(../blocks/course-info/__stats-el/course-info__stats-el.css);
+
+/* icons */
+@import url(../blocks/icon-courses/icon-courses.css);
+@import url(../blocks/icon-profile/icon-profile.css);

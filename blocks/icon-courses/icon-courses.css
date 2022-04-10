@@ -1,0 +1,11 @@
+.icon-courses::before {
+    background-image: url(../../images/header__icon-hat.svg);
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+    bottom: 4px;
+    width: 21px;
+    height: 16px;
+    content: '';
+
+}
