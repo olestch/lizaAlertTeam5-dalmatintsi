@@ -1,4 +1,5 @@
-.card__button_type_faq {
+.faq__button {
+  margin: 0;
   width: 12px;
   height: 9px;
   margin-right: 6px;
