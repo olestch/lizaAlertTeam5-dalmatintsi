@@ -14,9 +14,9 @@
 Проект содержит в себе три страницы, первая из которых содержит информацию о прохождении выбранного курса, вторая страница является страницей урока, где пользователь может ознакомится с информацией, третья страница в свою очередь является страницей вебинара, то есть имеет информацию о предстоящем вебинаре и ссылку на него.
 Ссылки на проект:
 
-- первая страница: https://olestch.github.io/lizaAlertTeam5-dalmatintsi/course.html
-- вторая страница: https://olestch.github.io/lizaAlertTeam5-dalmatintsi/lesson-text.html
-- третья страница: https://olestch.github.io/lizaAlertTeam5-dalmatintsi/lesson-webinar.html
+- [первая страница](https://olestch.github.io/lizaAlertTeam5-dalmatintsi/course.html)
+- [вторая страница](https://olestch.github.io/lizaAlertTeam5-dalmatintsi/lesson-text.html)
+- [третья страница](https://olestch.github.io/lizaAlertTeam5-dalmatintsi/lesson-webinar.html)
 
 Основыми функциями выполняемые пользователем на первой странице являются:
 
