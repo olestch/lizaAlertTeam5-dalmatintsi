@@ -1,16 +1,14 @@
-.card__faq-container {
+.faq {
   background-color: #fff;
   margin-top: 32px;
   padding-bottom: 32px;
   border-bottom: 1px solid rgba(230, 231, 235, 1);
 }
-.card__faq-container:nth-child(1) {
+.faq:nth-child(1) {
   margin-top: 0px;
-  }
-
-.card__faq-container:last-of-type {
+}
+.faq:last-of-type {
   margin-top: 32px;
   border: none;
   padding-bottom: 0px;
 }
-
