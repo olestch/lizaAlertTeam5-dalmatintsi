@@ -11,8 +11,22 @@
     <header class="header">
       <p class="header__title">Учебная платформа</p>
       <ul class="header__links">
-        <li class="header__links-el"><a href="https://mikhailmudrov.github.io/liza-project/index.html" class="header__link icon-courses" target="_blank">Курсы</a></li>
-        <li class="header__links-el"><a href="https://mikhailmudrov.github.io/liza-project/account.html" class="header__link icon-profile" target="_blank">Профиль</a></li>
+        <li class="header__links-el">
+          <a
+            href="https://mikhailmudrov.github.io/liza-project/index.html"
+            class="header__link icon-courses"
+            target="_blank"
+            >Курсы</a
+          >
+        </li>
+        <li class="header__links-el">
+          <a
+            href="https://mikhailmudrov.github.io/liza-project/account.html"
+            class="header__link icon-profile"
+            target="_blank"
+            >Профиль</a
+          >
+        </li>
       </ul>
     </header>
     <main class="main">
@@ -21,7 +35,7 @@
         <div class="info card">
           <div class="card__header">
             <h2 class="card__title">Описание курса</h2>
-            <h3 class="card__button">Свернуть</h3>
+            <button class="card__button">Свернуть</button>
           </div>
           <div class="card__content card__content_open">
             <p class="info__paragraph">
@@ -32,9 +46,9 @@
               отряда «ЛизаАлерт» было принято решение о развитии кинологического
               направления в рамках отряда.
             </p>
-            <h4 class="info__title-list">
+            <h3 class="info__title-list">
               Основные задачи нашего подразделения:
-            </h4>
+            </h3>
             <ul class="info__list">
               <li class="info__item">
                 Безвозмездное оказание помощи гражданам, оказавшимся в зонах
@@ -62,7 +76,7 @@
         <div class="card">
           <div class="card__header">
             <h2 class="card__title">Чему вы научитесь</h2>
-            <h3 class="card__button">Свернуть</h3>
+            <button class="card__button">Свернуть</button>
           </div>
           <div class="card__content card__content_open">
             <ul class="benefits">
@@ -73,9 +87,9 @@
                     alt="галочка"
                     class="benefits__icon"
                   />
-                  <h4 class="benefits__subhead">
+                  <h3 class="benefits__subhead">
                     Поисково-спасательная работа
-                  </h4>
+                  </h3>
                 </div>
                 <p class="benefits__text">
                   Оказание помощи гражданам, оказавшимся в зонах бедствия
@@ -84,13 +98,12 @@
               </li>
               <li class="benefits__item">
                 <div class="benefits__header">
-                  <!-- возможно лишняя обертка -->
                   <img
                     src="images/icon.svg"
                     alt="галочка"
                     class="benefits__icon"
                   />
-                  <h4 class="benefits__subhead">Следовая работа</h4>
+                  <h3 class="benefits__subhead">Следовая работа</h3>
                 </div>
                 <p class="benefits__text">
                   Обучение животного идти как по горячему, так и по остывшему
@@ -99,13 +112,12 @@
               </li>
               <li class="benefits__item">
                 <div class="benefits__header">
-                  <!-- возможно лишняя обертка -->
                   <img
                     src="images/icon.svg"
                     alt="галочка"
                     class="benefits__icon"
                   />
-                  <h4 class="benefits__subhead">Поиск тел погибших</h4>
+                  <h3 class="benefits__subhead">Поиск тел погибших</h3>
                 </div>
                 <p class="benefits__text">
                   Поиск тел и их остатков с применением специально обученных
@@ -118,7 +130,7 @@
         <div class="card">
           <div class="card__header">
             <h2 class="card__title">Содержание</h2>
-            <h3 class="card__button">Свернуть</h3>
+            <button class="card__button">Свернуть</button>
           </div>
           <div class="card__content card__content_open">
             <ul class="lessons">
@@ -132,19 +144,23 @@
                     <img
                       class="lesson__icon"
                       src="./images/lesson.svg"
-                      alt=""
+                      alt="бумажный лист"
                     />
                     <p class="lesson__point lesson__point_ready">Урок</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/video.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/video.svg"
+                      alt="видеокамера"
+                    />
                     <p class="lesson__point lesson__point_ready">Видео</p>
                   </div>
                   <div class="lesson__card">
                     <img
                       class="lesson__icon"
                       src="./images/lesson.svg"
-                      alt=""
+                      alt="бумажный лист"
                     />
                     <p class="lesson__point lesson__point_ready">Урок</p>
                   </div>
@@ -152,17 +168,20 @@
                     <img
                       class="lesson__icon"
                       src="./images/webinar.svg"
-                      alt=""
+                      alt="ноутбук"
                     />
                     <p class="lesson__point lesson__point_ready">Вебинар</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/test.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/test.svg"
+                      alt="тестовый бланк"
+                    />
                     <p class="lesson__point lesson__point_ready">Тест</p>
                   </div>
                 </div>
               </li>
-              <div class="line"></div>
               <li class="lesson">
                 <p class="lesson__text">
                   2. Необходимые обеспечительные меры для успешного применения
@@ -173,7 +192,7 @@
                     <img
                       class="lesson__icon"
                       src="./images/lesson.svg"
-                      alt=""
+                      alt="бумажный лист"
                     />
                     <p class="lesson__point lesson__point_ready">Урок</p>
                   </div>
@@ -181,7 +200,7 @@
                     <img
                       class="lesson__icon"
                       src="./images/webinar.svg"
-                      alt=""
+                      alt="ноутбук"
                     />
                     <p class="lesson__point lesson__point_ready">Вебинар</p>
                   </div>
@@ -189,22 +208,29 @@
                     <img
                       class="lesson__icon"
                       src="./images/lesson.svg"
-                      alt=""
+                      alt="бумажный лист"
                     />
                     <p class="lesson__point lesson__point_ready">Урок</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/video.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/video.svg"
+                      alt="видеокамера"
+                    />
                     <p class="lesson__point lesson__point_ready">Видео</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/test.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/test.svg"
+                      alt="тестовый бланк"
+                    />
                     <p class="lesson__point lesson__point_ready">Тест</p>
                   </div>
                 </div>
               </li>
-              <div class="line"></div>
-              <div class="lesson">
+              <li class="lesson">
                 <p class="lesson__text">
                   3. Особенности привлечения следовых расчётов
                   на ПСР и особенности взаимодействия
@@ -214,7 +240,7 @@
                     <img
                       class="lesson__icon"
                       src="./images/lesson.svg"
-                      alt=""
+                      alt="бумажный лист"
                     />
                     <p class="lesson__point lesson__point_ready">Урок</p>
                   </div>
@@ -222,7 +248,7 @@
                     <img
                       class="lesson__icon"
                       src="./images/webinar.svg"
-                      alt=""
+                      alt="ноутбук"
                     />
                     <p class="lesson__point lesson__point_ready">Вебинар</p>
                   </div>
@@ -230,21 +256,28 @@
                     <img
                       class="lesson__icon"
                       src="./images/lesson.svg"
-                      alt=""
+                      alt="бумажный лист"
                     />
                     <p class="lesson__point lesson__point_ready">Урок</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/video.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/video.svg"
+                      alt="видеокамера"
+                    />
                     <p class="lesson__point lesson__point_ready">Видео</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/test.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/test.svg"
+                      alt="тестовый бланк"
+                    />
                     <p class="lesson__point lesson__point_ready">Тест</p>
                   </div>
                 </div>
-              </div>
-              <div class="line"></div>
+              </li>
               <li class="lesson">
                 <p class="lesson__text">
                   4. Корректная постановка задачи кинологу и особенности
@@ -255,13 +288,12 @@
                     <img
                       class="lesson__icon"
                       src="./images/webinar.svg"
-                      alt=""
+                      alt="видеокамера"
                     />
                     <p class="lesson__point lesson__point_ready">Вебинар</p>
                   </div>
                 </div>
               </li>
-              <div class="line"></div>
               <li class="lesson">
                 <p class="lesson__text">
                   5. Работа «второго номера» совместно со следовым
@@ -272,7 +304,7 @@
                     <img
                       class="lesson__icon"
                       src="./images/lesson.svg"
-                      alt=""
+                      alt="бумажный лист"
                     />
                     <p class="lesson__point lesson__point_ready">
                       Дрессировка поисково-<br />спасательных собак
@@ -282,7 +314,7 @@
                     <img
                       class="lesson__icon"
                       src="./images/webinar.svg"
-                      alt=""
+                      alt="ноутбук"
                     />
                     <p class="lesson__point">Вебинар</p>
                   </div>
@@ -290,21 +322,28 @@
                     <img
                       class="lesson__icon"
                       src="./images/lesson.svg"
-                      alt=""
+                      alt="бумажный лист"
                     />
                     <p class="lesson__point">Урок</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/video.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/video.svg"
+                      alt="видеокамера"
+                    />
                     <p class="lesson__point">Видео</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/test.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/test.svg"
+                      alt="бумажный лист"
+                    />
                     <p class="lesson__point">Тест</p>
                   </div>
                 </div>
               </li>
-              <div class="line"></div>
               <li class="lesson">
                 <p class="lesson__text">
                   6. Оценка качества и особенности анализа результата
@@ -315,7 +354,7 @@
                     <img
                       class="lesson__icon"
                       src="./images/lesson.svg"
-                      alt=""
+                      alt="бумажный лист"
                     />
                     <p class="lesson__point">Урок</p>
                   </div>
@@ -323,21 +362,28 @@
                     <img
                       class="lesson__icon"
                       src="./images/webinar.svg"
-                      alt=""
+                      alt="ноутбук"
                     />
                     <p class="lesson__point">Вебинар</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/video.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/video.svg"
+                      alt="видеокамера"
+                    />
                     <p class="lesson__point">Видео</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/test.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/test.svg"
+                      alt="бумажный лист"
+                    />
                     <p class="lesson__point">Тест</p>
                   </div>
                 </div>
               </li>
-              <div class="line"></div>
               <li class="lesson">
                 <p class="lesson__text">
                   7. Особенности и пределы использования РПРС ом полученной
@@ -349,12 +395,16 @@
                     <img
                       class="lesson__icon"
                       src="./images/webinar.svg"
-                      alt=""
+                      alt="ноутбук"
                     />
                     <p class="lesson__point">Вебинар</p>
                   </div>
                   <div class="lesson__card">
-                    <img class="lesson__icon" src="./images/test.svg" alt="" />
+                    <img
+                      class="lesson__icon"
+                      src="./images/test.svg"
+                      alt="бумажный лист"
+                    />
                     <p class="lesson__point">Тест</p>
                   </div>
                 </div>
@@ -365,13 +415,17 @@
         <div class="card">
           <div class="card__header">
             <h2 class="card__title">FAQ</h2>
-            <h3 class="card__button">Свернуть</h3>
+            <button class="card__button">Свернуть</button>
           </div>
           <div class="card__content card__content_open">
             <div class="faq">
               <div class="faq__header">
-                <h4 class="faq__title">Как проходит обучение?</h4>
-                <img src="./images/faq-icon.svg" class="faq__button" />
+                <h3 class="faq__title">Как проходит обучение?</h3>
+                <img
+                  src="./images/faq-icon.svg"
+                  alt="галочка"
+                  class="faq__button"
+                />
               </div>
               <div class="faq__content">
                 Во время прохождения курса вам будут представлены текстовые
@@ -381,13 +435,16 @@
                 пройти тест.
               </div>
             </div>
-
             <div class="faq">
               <div class="faq__header">
-                <h4 class="faq__title">
+                <h3 class="faq__title">
                   Что, если я не набрал достаточное количество баллов?
-                </h4>
-                <img src="./images/faq-icon.svg" class="faq__button" />
+                </h3>
+                <img
+                  src="./images/faq-icon.svg"
+                  alt="галочка"
+                  class="faq__button"
+                />
               </div>
               <div class="faq__content">
                 У вас есть 2 попытки, чтобы пройти тест ещё раз.
@@ -395,8 +452,12 @@
             </div>
             <div class="faq">
               <div class="faq__header">
-                <h4 class="faq__title">Как долго доступны материалы?</h4>
-                <img src="./images/faq-icon.svg" class="faq__button" />
+                <h3 class="faq__title">Как долго доступны материалы?</h3>
+                <img
+                  src="./images/faq-icon.svg"
+                  alt="галочка"
+                  class="faq__button"
+                />
               </div>
               <div class="faq__content">
                 Материалы курса доступны в течение 64-х часов с момента начала

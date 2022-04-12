@@ -1,10 +1,15 @@
 .lesson {
-  margin: 32px 0 0 0;
+  padding: 32px 0 33px 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 26px;
+  border-bottom: 1px solid #e6e7eb;
 }
 
 .lesson:first-child {
-  margin: 0;
+  padding-top: 0;
+}
+.lesson:last-child {
+  padding-bottom: 0;
+  border: none;
 }
