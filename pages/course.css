@@ -14,7 +14,7 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/main__title/main__title.css);
 /* info place for grid */
-@import url(../blocks/left-bar/left-bar.css);
+@import url(../blocks/info-bar/info-bar.css);
 /* card import */
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__header/card__header.css);
@@ -29,7 +29,7 @@
 @import url(../blocks/faq/__content/faq__content.css);
 @import url(../blocks/faq/__content/_open/faq__content_open.css);
 @import url(../blocks/faq/__button/faq__button.css);
-@import url(../blocks/faq/__button/_transform/faq__button_transform_up.css);
+@import url(../blocks/faq/__button/_active/faq__button_active.css);
 /* import benefits */
 @import url(../blocks/benefits/benefits.css);
 @import url(../blocks/benefits/__header/benefits__header.css);
