@@ -3,6 +3,12 @@
   width: 12px;
   height: 9px;
   margin-right: 6px;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #fff;
+  background: url(../../../images/faq-icon.svg) no-repeat center;
   cursor: pointer;
+  background-size: 20px 20px;
   transition: transform ease 350ms;
 }
