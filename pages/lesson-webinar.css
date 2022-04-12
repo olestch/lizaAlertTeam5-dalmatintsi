@@ -20,9 +20,9 @@
 @import url(../blocks/breadcrumb/__link/_active/breadcrumb__link_active.css);
 /* webinar area */
 @import url(../blocks/webinar-area/webinar-area.css);
-@import url(../blocks/webinar-area/webinar-area__title/webinar-area__title.css);
-@import url(../blocks/webinar-area/webinar-area__info/webinar-area__info.css);
-@import url(../blocks/webinar-area/webinar-area__button/webinar-area__button.css);
+@import url(../blocks/webinar-area/__title/webinar-area__title.css);
+@import url(../blocks/webinar-area/__info/webinar-area__info.css);
+@import url(../blocks/webinar-area/__button/webinar-area__button.css);
 /* button import */
 @import url(../blocks/buttons-lesson-text/buttons-lesson-text.css);
 @import url(../blocks/buttons-lesson-text/__next/buttons-lesson-text__next.css);
