@@ -1,17 +1,17 @@
 .course-info__button {
-    background-color: #FF6600;
-    color: white;
-    font-family: 'Golos';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    border: none;
-    width: 360px;
-    height: 48px;
-    align-self: center;
-    border-radius: 16px;
-    margin: 0 0 32px 0;
-    padding: 0;
-    cursor: pointer;
+  background-color: #ff6600;
+  color: white;
+  font-family: "Golos", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  border: none;
+  width: 360px;
+  height: 48px;
+  align-self: center;
+  border-radius: 16px;
+  margin: 0 0 32px 0;
+  padding: 0;
+  cursor: pointer;
 }
