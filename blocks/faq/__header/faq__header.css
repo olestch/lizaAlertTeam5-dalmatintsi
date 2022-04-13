@@ -5,3 +5,8 @@
   align-items: center;
   cursor: pointer;
 }
+
+.faq__header:hover{
+  transition:  0.3s linear;
+  opacity: 60%;
+}

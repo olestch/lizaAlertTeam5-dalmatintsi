@@ -11,3 +11,7 @@
   cursor: pointer;
   font-size: 18px;
 }
+.webinar-area__button:hover{
+  transition:  0.3s linear;
+  opacity: 60%;
+}

@@ -7,3 +7,7 @@
   border: none;
   background-color: transparent;
 }
+.card__button:hover{
+  transition:  0.3s linear;
+  opacity: 60%;
+}

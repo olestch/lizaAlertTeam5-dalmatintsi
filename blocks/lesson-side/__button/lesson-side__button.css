@@ -10,3 +10,8 @@
   background-size: 20px 20px;
   transition: transform ease 350ms;
 }
+
+.lesson-side__button:hover{
+  transition:  0.3s linear;
+  opacity: 60%;
+}
