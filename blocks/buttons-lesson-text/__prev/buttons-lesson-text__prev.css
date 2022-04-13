@@ -11,3 +11,7 @@
   cursor: pointer;
   font-size: 18px;
 }
+.buttons-lesson-text__prev:hover{
+  transition:  0.3s linear;
+  opacity: 60%;
+}
