@@ -32,6 +32,6 @@ btnList.forEach((item) => {
     evt.stopPropagation();
 
     contentWrap1.classList.toggle("faq__content_open");
-    buttonWrap1.classList.toggle("faq__button_up");
+    buttonWrap1.classList.toggle("faq__button_active");
   });
 });
