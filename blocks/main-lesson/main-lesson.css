@@ -9,24 +9,22 @@
   justify-content: center;
   column-gap: 24px;
   grid-template-areas:
-  'breadcrumbs breadcrumbs'
-  'info  sidebar'
-  'info  sidebar'
-  'button sidebar'
-  ;
+    "breadcrumbs breadcrumbs"
+    "info  sidebar"
+    "info  sidebar"
+    "button sidebar";
 }
 
 @media screen and (max-width: 980px) {
   .main-lesson {
     grid-template-areas:
-    'breadcrumbs'
-    'info'
-    'button'
-    'sidebar';
+      "breadcrumbs"
+      "info"
+      "button"
+      "sidebar";
     grid-template-columns: 1fr;
     gap: 24px;
     justify-content: center;
     align-items: center;
   }
-  
 }
