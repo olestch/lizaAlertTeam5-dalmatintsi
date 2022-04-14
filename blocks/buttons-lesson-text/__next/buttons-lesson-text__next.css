@@ -11,7 +11,16 @@
   cursor: pointer;
   font-size: 18px;
 }
+
 .buttons-lesson-text__next:hover{
   transition:  0.3s linear;
   opacity: 60%;
+}
+
+@media screen and (max-width: 500px) {
+  .buttons-lesson-text__next {
+    font-size: 16px;
+    width: 120px;
+    height: 48px;
+  }
 }

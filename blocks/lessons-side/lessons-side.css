@@ -3,3 +3,10 @@
   margin: 0;
   list-style-type: none;
 }
+
+@media screen and (max-width: 500px) {
+  .lessons-side {
+    display: flex;
+    flex-direction: column;
+  }
+}

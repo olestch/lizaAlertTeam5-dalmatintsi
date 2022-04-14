@@ -7,4 +7,13 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 52px;
+  transition: 0.4s;
+}
+
+@media screen and (max-width:500px) {
+  .main__title {
+    font-size: calc(30 / 500 * 100vw);
+    line-height: calc(34 / 500 * 100vw);
+    max-width: calc(100vw - (100vw - 100%));
+  }
 }

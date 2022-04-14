@@ -1,22 +1,29 @@
 .course-info__button {
-  background-color: #ff6600;
-  color: white;
-  font-family: "Golos", Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  border: none;
-  width: 360px;
-  height: 48px;
-  align-self: center;
-  border-radius: 16px;
-  margin: 0 0 32px 0;
-  padding: 0;
-  cursor: pointer;
+    background-color: #FF6600;
+    color: white;
+    font-family: "Golos", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    width: 360px;
+    height: 48px;
+    align-self: center;
+    border-radius: 16px;
+    margin: 0 0 32px 0;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 .course-info__button:hover {
   transition: 0.3s linear;
   opacity: 60%;
+}
+
+@media screen and (max-width: 500px) {
+    .course-info__button {
+        width: calc(360/500 * 100vw);
+    }
 }

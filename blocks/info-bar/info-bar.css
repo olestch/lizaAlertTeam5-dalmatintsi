@@ -1,4 +1,16 @@
 .info-bar {
   grid-area: info;
-  width: 872px;
+  
+  max-width: 872px;
+}
+
+@media screen and (max-width: 500px) {
+    
+  .info-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: calc(100vw - (100vw - 100%));
+  }
 }

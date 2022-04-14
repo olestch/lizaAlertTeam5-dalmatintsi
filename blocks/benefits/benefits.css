@@ -7,3 +7,10 @@
   column-gap: 25px;
   row-gap: 32px;
 }
+
+@media screen and (max-width: 500px) {
+  .benefits {
+    display: flex;
+    flex-direction: column;
+  }
+}

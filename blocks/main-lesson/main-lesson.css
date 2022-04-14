@@ -1,9 +1,11 @@
 .main-lesson {
   margin: 96px auto 99px auto;
+  box-sizing: border-box;
+  padding: 0 60px;
   position: relative;
-  width: 1440px;
+  max-width: 1440px;
   display: grid;
-  grid-template-columns: 872px 424px;
+  grid-template-columns: 2fr 1fr;
   justify-content: center;
   column-gap: 24px;
   grid-template-areas:
@@ -12,4 +14,19 @@
   'info  sidebar'
   'button sidebar'
   ;
+}
+
+@media screen and (max-width: 980px) {
+  .main-lesson {
+    grid-template-areas:
+    'breadcrumbs'
+    'info'
+    'button'
+    'sidebar';
+    grid-template-columns: 1fr;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
