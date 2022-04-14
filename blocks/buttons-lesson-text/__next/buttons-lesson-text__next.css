@@ -10,8 +10,11 @@
   box-sizing: border-box;
   cursor: pointer;
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
-
 .buttons-lesson-text__next:hover{
   transition:  0.3s linear;
   opacity: 60%;
