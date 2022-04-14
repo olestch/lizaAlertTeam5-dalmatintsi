@@ -13,6 +13,11 @@
   cursor: pointer;
 }
 
+.breadcrumb__link:hover{
+  transition:  0.3s linear;
+  opacity: 60%;
+}
+
 @media screen and (max-width: 500px) {
   .breadcrumb__link {
     font-size: 16px;
