@@ -43,7 +43,6 @@
 @import url(../blocks/info/__list/info__list.css);
 @import url(../blocks/info/__item/info__item.css);
 /* lessons */
-@import url(../blocks/line/line.css);
 @import url(../blocks/lessons/lessons.css);
 @import url(../blocks/lesson/lesson.css);
 @import url(../blocks/lesson/__card/lesson__card.css);

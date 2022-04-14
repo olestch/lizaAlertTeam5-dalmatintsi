@@ -28,7 +28,6 @@
 @import url(../blocks/buttons-lesson-text/__next/buttons-lesson-text__next.css);
 @import url(../blocks/buttons-lesson-text/__prev/buttons-lesson-text__prev.css);
 /* right-sidebar-content */
-@import url(../blocks/line-side/line-side.css);
 @import url(../blocks/content-side/content-side.css);
 @import url(../blocks/content-side/__title/content-side__title.css);
 /* lessons-side import */
