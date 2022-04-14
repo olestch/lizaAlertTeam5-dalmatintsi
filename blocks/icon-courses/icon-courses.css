@@ -7,5 +7,15 @@
     width: 21px;
     height: 16px;
     content: '';
+    transition: 0.4s;
 
+}
+
+@media screen and (max-width: 580px) {
+    .icon-courses::before {
+        width: 16px;
+        height: 12px;
+        left: -20px;
+        
+    }
 }

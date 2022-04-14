@@ -11,3 +11,9 @@
     margin-left: 72px;
 }
 
+@media screen and (max-width:580px) {
+    .header__links-el:nth-child(2) {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }  
+}

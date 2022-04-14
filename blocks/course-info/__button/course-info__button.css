@@ -14,4 +14,11 @@
     margin: 0 0 32px 0;
     padding: 0;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 500px) {
+    .course-info__button {
+        width: calc(360/500 * 100vw);
+    }
 }

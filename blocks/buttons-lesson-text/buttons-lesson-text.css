@@ -3,8 +3,15 @@
   margin: 0;
   padding: 0 32px 0 0;
   font-family: "Golos", Arial, Helvetica, sans-serif;
-  width: 872px;
+  max-width: 872px;
   display: flex;
   justify-content: flex-end;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  .buttons-lesson-text {
+    padding: 0;
+    margin-top: 20px;
+  }
 }
