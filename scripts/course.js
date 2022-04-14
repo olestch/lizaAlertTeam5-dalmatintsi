@@ -1,9 +1,3 @@
-const goToNextLessonButton = document.querySelector("#goToLessonText");
-function goToNextLessonButtonHandler() {
-  document.location.href = "./lesson-text.html";
-}
-goToNextLessonButton.addEventListener("click", goToNextLessonButtonHandler);
-
 const cardList = document.querySelectorAll(".card");
 
 cardList.forEach((item) => {

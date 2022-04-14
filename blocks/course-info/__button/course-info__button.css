@@ -9,12 +9,16 @@
     border: none;
     width: 360px;
     height: 48px;
-    align-self: center;
     border-radius: 16px;
     margin: 0 0 32px 0;
     padding: 0;
     cursor: pointer;
     transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
 }
 
 .course-info__button:hover {
