@@ -1,0 +1,12 @@
+.info__title-list {
+  font-family: "Golos", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212329;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 0;
+}

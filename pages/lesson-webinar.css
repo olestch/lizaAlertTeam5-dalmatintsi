@@ -1,0 +1,56 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/golos-text.css);
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__links-el/header__links-el.css);
+@import url(../blocks/header/__link/header__link.css);
+/* page import */
+@import url(../blocks/page/page.css);
+/* main-lesson import */
+@import url(../blocks/main-lesson/main-lesson.css);
+@import url(../blocks/info-bar/info-bar.css);
+@import url(../blocks/card/card.css);
+/* breadcrumbs import */
+@import url(../blocks/breadcrumbs/breadcrumbs.css);
+@import url(../blocks/breadcrumb/breadcrumb.css);
+@import url(../blocks/breadcrumb/__arrow/breadcrumb__arrow.css);
+@import url(../blocks/breadcrumb/__link/breadcrumb__link.css);
+@import url(../blocks/breadcrumb/__link/_active/breadcrumb__link_active.css);
+/* webinar area */
+@import url(../blocks/webinar-area/webinar-area.css);
+@import url(../blocks/webinar-area/__title/webinar-area__title.css);
+@import url(../blocks/webinar-area/__info/webinar-area__info.css);
+@import url(../blocks/webinar-area/__button/webinar-area__button.css);
+/* button import */
+@import url(../blocks/buttons-lesson-text/buttons-lesson-text.css);
+@import url(../blocks/buttons-lesson-text/__next/buttons-lesson-text__next.css);
+@import url(../blocks/buttons-lesson-text/__prev/buttons-lesson-text__prev.css);
+/* right-sidebar-content */
+@import url(../blocks/content-side/content-side.css);
+@import url(../blocks/content-side/__title/content-side__title.css);
+/* lessons-side import */
+@import url(../blocks/lessons-side/lessons-side.css);
+@import url(../blocks/lesson-side/lesson-side.css);
+@import url(../blocks/lesson-side/__button/lesson-side__button.css);
+@import url(../blocks/lesson-side/__button/_active/lesson-side__button_active.css);
+@import url(../blocks/lesson-side/__container/lesson-side__container.css);
+@import url(../blocks/lesson-side/__container/_closed/lesson-side__container_closed.css);
+@import url(../blocks/lesson-side/__header/lesson-side__header.css);
+@import url(../blocks/lesson-side/__point/lesson-side__point.css);
+@import url(../blocks/lesson-side/__point/_active/lesson-side__point_active.css);
+@import url(../blocks/lesson-side/__points/lesson-side__points.css);
+@import url(../blocks/lesson-side/__text/lesson-side__text.css);
+@import url(../blocks/lesson-side/__icon/_type/lesson-side__icon_type_l.css);
+@import url(../blocks/lesson-side/__icon/_type/lesson-side__icon_type_t.css);
+@import url(../blocks/lesson-side/__icon/_type/lesson-side__icon_type_v.css);
+@import url(../blocks/lesson-side/__icon/_type/lesson-side__icon_type_w.css);
+@import url(../blocks/lesson-side/__icon/_active/lesson-side__icon_active_w.css);
+@import url(../blocks/lesson-side/__icon/_ready/lesson-side__icon_ready.css);
+/* span accent */
+@import url(../blocks/span-accent/span-accent.css);
+
+/* icons */
+@import url(../blocks/icon-courses/icon-courses.css);
+@import url(../blocks/icon-profile/icon-profile.css);

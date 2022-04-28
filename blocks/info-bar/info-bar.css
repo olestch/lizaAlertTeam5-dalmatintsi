@@ -1,0 +1,7 @@
+.info-bar {
+  grid-area: info;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

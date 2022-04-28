@@ -1,0 +1,30 @@
+.buttons-lesson-text__prev {
+  margin: 0;
+  padding: 0;
+  width: 184px;
+  height: 48px;
+  background-color: #fff;
+  border: 1.2px solid #e6e7eb;
+  box-sizing: border-box;
+  border-radius: 16px;
+  color: #ff6600;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.buttons-lesson-text__prev:hover{
+  transition:  0.3s linear;
+  opacity: 60%;
+}
+
+@media screen and (max-width: 500px) {
+  .buttons-lesson-text__prev {
+    font-size: 16px;
+    width: 120px;
+    height: 48px;
+  }
+}

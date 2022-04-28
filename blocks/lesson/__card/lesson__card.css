@@ -1,0 +1,8 @@
+.lesson__card{
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  margin: 0 0 16px 0;
+  align-items: flex-start;
+}

@@ -1,0 +1,29 @@
+.breadcrumbs {
+  box-sizing: border-box;
+  grid-area: breadcrumbs;
+  justify-self: start;
+  width: calc(100vw - (100vw - 100%));
+  margin: 0 auto 32px;
+  font-family: "Golos", Arial, Helvetica, sans-serif;
+  color: #212329;
+  max-width: 1320px;
+
+  display: grid;
+  grid-template-columns: max-content max-content auto max-content 1fr;
+}
+
+@media screen and (max-width: 1180px) {
+  .breadcrumbs {
+    grid-template-columns: max-content auto auto max-content 1fr;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .breadcrumbs {
+    padding: 0 25px;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content auto auto auto 1fr;
+    margin-bottom: 0;
+    gap: 10px;
+  }
+}

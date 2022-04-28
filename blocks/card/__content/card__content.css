@@ -1,0 +1,6 @@
+.card__content {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.7s all ease;
+  }

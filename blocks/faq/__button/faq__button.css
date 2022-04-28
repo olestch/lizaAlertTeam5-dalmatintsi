@@ -1,0 +1,11 @@
+.faq__button {
+  margin: 0;
+  width: 12px;
+  height: 9px;
+  margin-right: 6px;
+  border: none;
+  background-color: #fff;
+  background: url(../../../images/faq-icon.svg) no-repeat center;
+  cursor: pointer;
+  transition: transform ease 350ms;
+}

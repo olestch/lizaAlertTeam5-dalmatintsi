@@ -1,0 +1,14 @@
+.header__links {
+    display: flex;
+    flex-direction: row;
+    margin: 0 60px 0 0;
+    padding: 0;
+    transition: 0.4s;
+}
+
+@media screen and (max-width:580px) {
+    .header__links {
+        flex-direction: column;
+        margin-right: 30px;
+    }  
+}

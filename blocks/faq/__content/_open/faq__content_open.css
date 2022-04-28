@@ -1,0 +1,6 @@
+.faq__content_open {
+  height: auto;
+  padding-top: 32px;
+  opacity: 1;
+  transition: 0.9s all ease;
+}

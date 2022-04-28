@@ -1,0 +1,21 @@
+.icon-courses::before {
+    background-image: url(../../images/header__icon-hat.svg);
+    background-size: cover;
+    position: absolute;
+    left: -30px;
+    bottom: 4px;
+    width: 21px;
+    height: 16px;
+    content: '';
+    transition: 0.4s;
+
+}
+
+@media screen and (max-width: 580px) {
+    .icon-courses::before {
+        width: 16px;
+        height: 12px;
+        left: -20px;
+        
+    }
+}
